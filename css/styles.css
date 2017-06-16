@@ -1,0 +1,80 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    height: 100px;
+}
+
+nav {
+    background-color: #323459;
+    background-image: url(../assets/images/nursing2.jpg);
+}
+
+header#home {
+    position: relative;
+    /*overflow: hidden;*/
+    /*display: block;*/
+    /*padding-bottom:1%;*/
+    height:100%;
+    
+}
+
+header#home::after {
+    content: "";
+    position: absolute;
+    /*display: block;*/
+    background: url(../assets/images/11_2.jpg) no-repeat;
+    background-size: 100%;
+    /*height:100%;*/
+    opacity: .5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+header div {
+    color: black;
+    opacity: 1;
+}
+
+header p {
+    color: black;
+    opacity: 1;
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+#services h2 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card-block {
+    background-color: lightblue;
+    /*height:50%;*/
+}
+.card-text{
+    padding-left:5%;
+}
+
+.container.card-deck{
+    padding-top:30px;
+}
+/*
+.card-deck .card:nth-child(3) {
+    margin-left: -2%;
+}*/
+
+/*++++++++++++++++++++Staff.html +++++++++++++++++++++*/
+
+
+/*++++++++++++++++++++About.html +++++++++++++++++++++*/
+
+#about img {
+    width: 80%;
+}
